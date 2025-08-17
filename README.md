@@ -6,7 +6,13 @@ Além disso, vamos trabalhar com Gitflow ao final do curso e Visual Studio Code.
 
 Confira tudo o que temos no nosso YouTube. É gratis! Segue o link:
 
-[Curo Git 2025](http:/youtube.com/@teomewhy)
+[Curo Git 2025](http://youtube.com/@teomewhy)
+
+Além do nosso Youtube, Se ligue no nosso site e agenda para ficar por dentro de tudo que vai rolar em 2025.
+
+[teomewhy.org](https://teomewhy.org/schedule)
+
+[Padrão Nomenclaturas de Branch](https://medium.com/prolog-app/nossos-padr%C3%B5es-de-nomenclatura-para-branches-e-commits-fade8fd17106)
 
 
 ## Fluxo de trabalho Git local
