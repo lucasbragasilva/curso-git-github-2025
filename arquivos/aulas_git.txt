@@ -1,0 +1,66 @@
+- o problema
+como lidar com diversas alterações em seu projeto
+como tomar decições que possam ser reversíveis
+como trabalhar com muitos contribuidores
+como distribuir
+
+-git é um software para gerenciamento de versão
+criado por linus torvalds para melhorar o trabalho colobarativo do kernel do linux
+é open sourve
+
+-conceito
+commit são como salves de um jogo, ou um cheking point
+
+ls 		->lista a pasta
+cd 		->muda o diretório
+pwd 		->caminho absoluto da onde estamos no bash
+ls -a 		->arquivos ocultos
+ctrl + l 	->limpa o bash
+mkdir <pasta> 	->cria pasta
+cat 		->ler arquivo
+rm -rf .git/ 	-> apagar a pasta e subpasta ( r recusão e f de force)
+touch <arquivo> -> criar arquivo em branco
+
+
+git init . 		->fazer tornar uma pasta especial, vai virar uma pasta que pode ser versionado
+git status 		-> status do repositório
+git add <nome> 		->prepara o que vai entrar no chekpoint (salvar) (staged)
+git commit -m "commit" 	->comitar o código
+git config --global user.email "email" 	->configurar a assinatura de email
+git config --global user.name "nome" 	->configurar a assinatura do nome
+git config --global user.email 		-> confirmar email
+git config --global user.name 		-> confirmar nome
+nano comandos_git.txt 	-> editor de texto do bash
+ctrl + o 		-> salva dentro do nano
+ctrl + x 		-> sair do modo de edição do nano
+git log 		-> verifica os checkpoints
+git diff <nome> 	-> verifica o que foi modificado no arquivo
+git reset <nome>	-> da o unstaged, desfaz o add
+git checkout -b <branch>-> cria ua branch, um novo caminho (-b para quando a branch não existe)
+git branch 		-> mostra todas as branch do projeto e a branch atual que esta trabalhando
+git checkout <branch> 	-> vou para a branch
+git merge <nome branch> -> mesclar a informações de uma branch
+git branch -D <nome> -> deletar a branch
+
+repositório 
+
+git remote add origin <HTTPS> 	-> adicionar o repositorio
+git push origin main		-> todas as alterações atual na maquina local na main (branch atual, pode ser outras) e enviando para o repositório
+git pull origin main 		-> traz todas as atualizações do repositório para a máquina local
+git fetch			-> traz as brach do repositório
+git checkout <branch>		-> depois que o fetch traz todas as branch usar o checkout sem o "-b" para mudar de branch
+
+-> utiliazar um git pull origin <branch> para começar a utilizar de maneira mais atualizada
+
+
+
+
+
+
+
+
+
+
+
+
+
